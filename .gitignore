@@ -1,0 +1,20 @@
+__pycache__/
+output/
+.env
+.DS_Store
+
+# working folders written by the collection scripts
+audit/label_check/label_audit/
+controls/photographs/candidates/
+controls/photographs/images/
+controls/photographs/results/
+controls/photographs/review_sheet.html
+controls/generators/images/
+controls/generators/results/
+results/separability/embeddings/
+
+# LAION-Aesthetics V2 head (download, see README)
+models/
+controls/photographs/candidates_sources_openverse.csv
+controls/photographs/candidates_dedup_log.csv
+controls/photographs/sources.csv

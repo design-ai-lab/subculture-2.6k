@@ -1,0 +1,24 @@
+# Analyses (tested with Python 3.13 and these versions)
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.5
+umap-learn>=0.5.6
+matplotlib>=3.8
+seaborn>=0.13
+Pillow>=10.2
+opencv-python>=4.9
+requests>=2.31
+
+# CLIP embeddings, LAION-A scoring, photograph and generator controls
+torch>=2.2
+open-clip-torch>=2.24
+
+# Dominant colors (dataset/analyze_colors.py)
+plotly==5.18.0
+colormath>=3.0.0
+colorthief==0.2.1
+webcolors==1.13
+
+# PickScore, ImageReward and HPS-v2 need conflicting versions of transformers and timm;
+# install each from environments/subc-{pick,ir,hps}.requirements.txt.
